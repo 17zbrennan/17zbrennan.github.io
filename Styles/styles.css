@@ -1,0 +1,84 @@
+
+h1 {color: blue;}
+
+h2{color: white;
+	text-align: center;
+}
+
+h5{color:black;
+background-color: white; opacity:.75;}
+body {
+  background-image: linear-gradient(black, gray);
+
+	 position: relative;
+	 min-height: 100%;
+	 min-height: 100vh;
+}
+
+nav{background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 255));}
+
+header {background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 255));}
+footer {
+	background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 255));
+	text-align: center;
+    position: fixed;
+    right: 0;bottom:0;left:0;
+    width: 100%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: blue;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width:50%;
+}
+.footnav {
+	color: white;
+	text-align: center;
+	display: inline;
+}
+
+.information{
+	padding: 10px 400px;
+	text-align: center;
+	color: white;
+}
+.form_box{
+	padding: 10px 400px;
+	text-align: center;
+}
+.card{
+	width: 30rem;
+}
+.container{
+	padding-top: 30px;
+	align-content: center;
+}
+
+.row{
+		padding-top: 30px;
+	align-content: center;
+}
+.image_game{
+	padding: 50px 250px;
+}
+.game_info{
+	font-size: 24px;
+	color: white;
+}
