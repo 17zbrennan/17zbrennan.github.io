@@ -17,10 +17,11 @@ h5{color:black;
 background-color: white; opacity:.75;}
 
 html, body {
-  background-image: linear-gradient(black, gray);
-
+	height:125%;
+   background-image: linear-gradient(black, gray);
+   background-size: cover;
    background-repeat:no-repeat;
- 	min-height: 100%
+
 }
 
 nav{background-image: linear-gradient(rgb(0, 0, 255), rgb(255, 255, 255));}
@@ -58,6 +59,12 @@ a:active {
 
 .center{
 	text-align: center;
+	color: white;
+}
+.about{
+	text-align: justify;
+	 margin-right: 250px;
+ 	 
 	color: white;
 }
 .information{
